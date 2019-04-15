@@ -1,0 +1,33 @@
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1{
+    padding: 10px;
+    font-size: 50px;
+
+  }
+ tr{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    background-color: silver;
+    padding: 10px;
+    font-weight: bold;
+    
+ }
+ th{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    background-color:brown;
+    padding: 10px;
+    font-weight: bold;
+    
+
+ }
+ a{
+    
+    text-decoration: none;
+    color:black;
+
+ }

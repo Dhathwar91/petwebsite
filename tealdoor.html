@@ -7,6 +7,8 @@
     <title>Pet friendly Restaurants</title>
     <link rel="stylesheet" href="tl.css">
     <link rel="stylesheet" href="parfod.css">
+    <link rel="stylesheet" href="StarRating.css">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 </head>
 <body>
         <div class="logo">
@@ -14,11 +16,8 @@
             </div>
      <div class="navbar">
                     <ul>
-                            <li> <a href="#"> ABOUT US</a>
-                                <ul>
-                                        <li> <a href="help.html"> HELP</a> </li>
-                                        <li> <a href="contact.html"> CONTACT US</a>
-                                </ul>
+                            <li> <a href="contact.html"> ABOUT US</a>
+                               
                         </li>
                        <li> <a href="food.html"> FOOD CENTERS</a> </li>
                         <li> <a href="#"> PLACES FOR PETS </a>
@@ -27,7 +26,7 @@
                                     <li> <a href="rest.html"> RESTAURANTS </a>
                             </ul>
                         </li>
-                        <li> <a href="#"> HOME</a> </li>
+                        <li> <a href="index.html"> HOME</a> </li>
                     </ul>
                 </div>
             </div>
@@ -41,22 +40,39 @@ Address:
 618, 2nd Main Road, Binnamangala, 
 Hoysala Nagar, Indiranagar, Bangalore
  
-Timings
- <table>
-<tr><td>Monday</td><td>11am–11pm</td></tr>
-<tr><td>Tuesday</td><td>11am–11pm</td></tr>
-<tr><td>Wednesday</td><td>11am–11pm</td></tr>
-<tr><td>Thursday</td><td>11am–11pm</td></tr>
-<tr><td>Friday</td><td>11am–11pm</td></tr>
-<tr><td>Saturday</td><td>11am–11pm</td></tr>
-<tr><td>Sunday</td><td>11am–11pm</td></tr>
+<select style="width: 250px;">
+    <option value="Timings">Timings</option>
+<option value="Monday">Monday  :    11am–11pm   </option>
+<option value="Tuesday">Tuesday  :    11am–11pm </option>
+<option value="Wednesday">Wednesday: 11am–11pm  </option>
+<option value="Thursday">Thursday  :  11am–11pm </option>
+<option value="Friday">Friday     :   11am–11pm </option>
+<option value="Saturday">Saturday :   11am–11pm </option>
+<option value="Sunday">Sunday     :   11am–11pm </option>
+ 
+</select>
 
-    </table>
+
 Contact no:9035384282
 
 Cost: ₹600 for two people
 
    
 </pre>
+<x-star-rating value="3" number="5"></x-star-rating>
+<script src="StarRating.js"></script>
+<h4>ADD COMMENTS</h4>
+Name:<input type="text" id="name" /> <br /><br />
+Date: <input type="date" id="date" /> <br /> <br />
+Body: <textarea rows="5" cols="30" id="bodyText"></textarea><br /> <br />
+<input type="button" id="addComment" value="Submit" />
+</div>
+<div id="container">
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+  
+
 </body>
 </html>

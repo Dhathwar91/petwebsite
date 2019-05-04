@@ -1,7 +1,7 @@
 body{
     padding: 0;
     margin: 0;
-    background-image: url(efeg.jpg);
+    background-image: url(gg.jpg);
     background-size: cover;
     background-attachment: fixed;
 
@@ -68,6 +68,7 @@ body{
 }
 .navbar ul li:hover ul{
     display: block;
+    position: fixed;
 }
 .Slider
 {
@@ -100,3 +101,44 @@ float: right;
         
     } 
 }
+.commentBox
+{
+    padding: 1%;
+    width: 90%;
+    height: 120px;
+    border: 1px solid black;
+}
+.leftPanelImg
+{
+width: 10%;
+
+
+    float: left;
+}
+.leftPanelImg img
+{
+    border-radius: 100%;
+
+}
+.rightPanel
+{
+    width: 85%;
+    float: left;
+    margin-left: 2%;
+}
+.clear
+{
+    clear: both;
+}
+.form
+    {
+      padding: 10px;
+      border: 1px solid black;
+      margin-bottom: 10px;  
+    }
+    .form input[type="text"],.form textarea,.form input[type="date"]
+    {
+        border: 1px solid black;
+        padding: 2px;
+    width: 300px;
+    }

@@ -16,17 +16,17 @@
             </div>
      <div class="navbar">
                     <ul>
-                            <li> <a href="contact.html"> ABOUT US</a>
+                            <li> <a href="contact.php"> ABOUT US</a>
                                
                         </li>
-                       <li> <a href="food.html"> FOOD CENTERS</a> </li>
+                       <li> <a href="food.php"> FOOD CENTERS</a> </li>
                         <li> <a href="#"> PLACES FOR PETS </a>
                             <ul>
-                                    <li> <a href="parks.html"> PARKS</a> </li>
-                                    <li> <a href="rest.html"> RESTAURANTS </a>
+                                    <li> <a href="parks.php"> PARKS</a> </li>
+                                    <li> <a href="rest.php"> RESTAURANTS </a>
                             </ul>
                         </li>
-                        <li> <a href="index.html"> HOME</a> </li>
+                        <li> <a href="index.php"> HOME</a> </li>
                     </ul>
                 </div>
             </div>

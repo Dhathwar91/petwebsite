@@ -1,0 +1,188 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(gg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.logo
+{
+    width: 40px;
+    height: 40px;
+    align: left;
+    padding: 10PX;
+}
+.navbar
+{
+    height: 90px;
+    padding: 0;
+    margin: 0;
+    background-color:lightblue;
+
+}
+.navbar ul
+{
+   list-style: none;
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+   position: relative;
+   z-index: 1000;
+   line-height: 30px;
+
+}
+.navbar li{
+    margin-top: 20px;
+    float: right;
+    margin: 0;
+    padding: 0;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+    width: 200px;
+    display: block;
+    padding: 25px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar a:hover
+{
+    background-color: white;
+    transition: 0.4s;
+}
+.navbar ul li ul{
+    background-color:lightblue;
+
+}
+.navbar ul li ul li{
+    float: none;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover ul{
+    display: block;
+    position: fixed;
+}
+a {
+    color:black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+padding: 5px;
+text-decoration: none;
+display: block;
+}
+.Slider
+{
+    width: 701px;
+    height: 438px;
+    background: url(1.jpeg);
+    margin: 40px auto;
+    animation: slide 250s infinite;
+}
+@keyframes slide{
+    0%
+    {
+        background: url(31.jpg);
+        
+    }
+    5%
+    {
+        background: url(29.jpg);
+        
+    }
+    10%
+    {
+        background: url(2.jpg);
+        
+    }
+    15%
+    {
+        background: url(3.jpg);
+        
+    }
+    20%
+    {
+        background: url(5.jpg);
+    }
+    25%
+    {
+        background: url(6.jpg);
+    }
+    30%
+    {
+        background: url(8.jpg);
+    }
+    35%
+    {
+        background: url(10.jpg);
+    }
+    45%
+    {
+        background: url(13.jpg);
+    }
+    50%
+    {
+        background: url(15.jpg);
+    }
+    55%
+    {
+        background: url(17.jpg);
+    }
+    60%
+    {
+        background: url(18.jpg);
+    }
+    65%
+    {
+        background: url(20.jpg);
+    }
+    70%
+    {
+        background: url(21.jpg);
+    }
+    75%
+    {
+        background: url(22.jpg);
+    }
+    80%
+    {
+        background: url(24.jpg);
+    }
+    82%
+    {
+        background: url(25.jpg);
+    }
+    85%
+    {
+        background: url(26.jpg);
+    }
+    90%
+    {
+        background: url(27.jpg);
+    }
+    95%
+    {
+        background: url(28.jpg);
+    }
+    100%
+    {
+        background: url(30.jpg);
+        
+    }
+}
+.d{
+    float: right;
+    width: 300px;
+  border: 10px solid black;
+  padding: 30px;
+  margin: 10px;
+};

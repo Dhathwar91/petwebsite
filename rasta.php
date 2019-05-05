@@ -16,15 +16,15 @@
                     <ul>
                             <li> <a href="#"> ABOUT US</a>
                                 <ul>
-                                        <li> <a href="help.html"> HELP</a> </li>
-                                        <li> <a href="contact.html"> CONTACT US</a>
+                                        <li> <a href="help.php"> HELP</a> </li>
+                                        <li> <a href="contact.php"> CONTACT US</a>
                                 </ul>
                         </li>
-                       <li> <a href="food.html"> FOOD CENTERS</a> </li>
+                       <li> <a href="food.php"> FOOD CENTERS</a> </li>
                         <li> <a href="#"> PLACES FOR PETS </a>
                             <ul>
-                                    <li> <a href="parks.html"> PARKS</a> </li>
-                                    <li> <a href="rest.html"> RESTAURANTS </a>
+                                    <li> <a href="parks.php"> PARKS</a> </li>
+                                    <li> <a href="rest.php"> RESTAURANTS </a>
                             </ul>
                         </li>
                         <li> <a href="#"> HOME</a> </li>

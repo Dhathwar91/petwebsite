@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect("localhost","root","divchand2","project");
+$con=mysqli_connect("localhost","root","","rating");
 $name=$_POST["name"];
 $comment=$_POST["comment"];
 $comment_length=strlen($comment);

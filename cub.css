@@ -1,0 +1,160 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(gg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.logo
+{
+    width: 40px;
+    height: 40px;
+    align: left;
+}
+.navbar
+{
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    background-color: gray;
+
+}
+.navbar ul
+{
+   list-style: none;
+   text-align: center;
+   padding: 10px;
+   margin: 0;
+   position: relative;
+   z-index: 1000;
+   line-height: 30px;
+
+}
+.navbar li{
+    margin-top: 20px;
+    float: right;
+    margin: 0;
+    padding: 0;
+   
+}
+.navbar li a{
+    text-decoration: none;
+    color:black;
+    width: 200px;
+    display: block;
+    padding: 25px;
+    height: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.navbar a:hover
+{
+    background-color: white;
+    transition: 0.4s;
+}
+.navbar ul li ul{
+    background-color:brown;
+
+}
+.navbar ul li ul li{
+    float: none;
+}
+.navbar ul li ul{
+    display: none;
+}
+.navbar ul li:hover ul{
+    display: block;
+    position: fixed;
+}
+.Slider
+{
+    width: 600px;
+    height: 300px;
+    background: url(cub.jpg);
+    margin: 50px auto;
+    animation: slide 250s infinite;
+float: right;
+}
+@keyframes slide{
+    20%
+    {
+        background: url(cubb.jpg);
+        
+    }
+    40%
+    {
+        background: url(cubb1.jpg);
+        
+    }
+    50%
+    {
+        background: url(cubb5.jpg);
+        
+    }
+    60%
+    {
+        background: url(cubb_2.jpg);
+        
+    }
+    70%
+    {
+        background: url(cubb_3.jpg);
+        
+    }
+    85%
+    {
+        background: url(cubb_4.jpg);
+        
+    }
+    100%
+    {
+        background: url(cubb_5.jpg);
+        
+    }
+    
+}
+.commentBox
+{
+    padding: 1%;
+    width: 90%;
+    height: 120px;
+    border: 1px solid black;
+}
+.leftPanelImg
+{
+width: 10%;
+
+
+    float: left;
+}
+.leftPanelImg img
+{
+    border-radius: 100%;
+
+}
+.rightPanel
+{
+    width: 85%;
+    float: left;
+    margin-left: 2%;
+}
+.clear
+{
+    clear: both;
+}
+.form
+    {
+      padding: 10px;
+      border: 1px solid black;
+      margin-bottom: 10px;  
+    }
+    .form input[type="text"],.form textarea,.form input[type="date"]
+    {
+        border: 1px solid black;
+        padding: 2px;
+    width: 300px;
+    }

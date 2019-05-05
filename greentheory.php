@@ -67,7 +67,7 @@ Cost:₹800 for two people
   </form>
   <h2>Comments</h2>
     <?php
-    $con=mysqli_connect("localhost","root","","rating");
+    $con=mysqli_connect("localhost","root","divchand2","project");
     $find_project=mysqli_query($con,"SELECT * FROM greentheory");
     while($row=mysqli_fetch_assoc($find_project))
     {

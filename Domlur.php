@@ -37,11 +37,12 @@
     <div class="Slider">
 
     </div>
-    <h3>Details</h3>
+    <h3>DETAILS</h3>
     <pre>
-Address: 
-1st Stage, Domlur, Bengaluru, Karnataka 560071
-<select style="width: 250px;">
+            Address:    
+                1st Stage, Domlur, Bengaluru, Karnataka 560071
+          <select style="width: 250px;">
+
         <option value="Timings">Timings</option>
     <option value="Monday">Monday  :      4am–9pm</option>
     <option value="Tuesday">Tuesday  :     4am–9pm</option>
@@ -52,11 +53,10 @@ Address:
     <option value="Sunday">Sunday     :    4am–9pm</option>
      
   </select>
-
- </pre>
+  </pre>
  <x-star-rating value="3" number="5"></x-star-rating>
    
- <form action="domlur_post.php" method="POST" enctype="multipart/form-data" >
+ <form action="post_comment.php" method="POST" enctype="multipart/form-data" >
     <h2>Add Comment</h2>
       <input type="text" placeholder="Enter Your Name" name="name" required /> <br /><br />
       <textarea rows="5" placeholder="Enter the Comment" cols="30" name="comment" required></textarea><br>
@@ -65,7 +65,7 @@ Address:
   <h2>Comments</h2>
     <?php
     $con=mysqli_connect("localhost","root","divchand2","project");
-    $find_project=mysqli_query($con,"SELECT * FROM dom");
+    $find_project=mysqli_query($con,"SELECT * FROM comments");
     while($row=mysqli_fetch_assoc($find_project))
     {
         $comment_name=$row['name'];

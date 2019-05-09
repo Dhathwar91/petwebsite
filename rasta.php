@@ -41,18 +41,19 @@
 Address:      
 3, Church St, Shanthala Nagar, MSR,
 Bengaluru, Karnataka 560001
+<select style="width: 250px;">
+ 
+<option value="Timings">Timings</option>
+<option value="Monday">Monday  :      9am–11pm</option>
+<option value="Tuesday">Tuesday  :     9am–11pm</option>
+<option value="Wednesday">Wednesday:   9am–11pm</option>
+<option value="Thursday">Thursday  :   9am–11pm</option>
+<option value="Friday">Friday     :    9am–11pm</option>
+<option value="Saturday">Saturday :    9am–11pm</option>
+<option value="Sunday">Sunday     :    9am–11pm</option>
+     
+  </select>
 
-Timings
-    <table>
-<tr><td>Monday</td><td>9am–11pm</td></tr>
-<tr><td>Tuesday</td><td>9am–11pm</td></tr>
-<tr><td>Wednesday</td><td>9am–11pm</td></tr>
-<tr><td>Thursday</td><td>9am–11pm</td></tr>
-<tr><td>Friday</td><td>9am–11pm</td></tr>
-<tr><td>Saturday</td><td>9am–11pm</td></tr>
-<tr><td>Sunday</td><td>9am–11pm</td></tr>
-   
-       </table>
 Contact no: 078990 63636
 
 Cost:₹1000 for two people 

@@ -1,10 +1,11 @@
-h3  {
+
+   h3  {
     font-style: bold;
     font-weight: bold;
     font-size: 40px;
     background-color: lightsalmon;
     display: block;
-
+border-color: black;
   }
   pre {
     font-family: Arial, Helvetica, sans-serif;
@@ -12,12 +13,9 @@ h3  {
     
     display: block;
     font-weight: bold;
-
   }
- 
   h1{
     padding: 10px;
     font-size: 40px;
 
   }
- 

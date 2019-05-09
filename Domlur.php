@@ -37,20 +37,20 @@
     <div class="Slider">
 
     </div>
-    <h3>DETAILS</h3>
+    <h3>Details</h3>
     <pre>
-            Address:    
-                1st Stage, Domlur, Bengaluru, Karnataka 560071
-          <select style="width: 250px;">
-
-        <option value="Timings">Timings</option>
-    <option value="Monday">Monday  :      4am–9pm</option>
-    <option value="Tuesday">Tuesday  :     4am–9pm</option>
-    <option value="Wednesday">Wednesday:   4am–9pm</option>
-    <option value="Thursday">Thursday  :   4am–9pm</option>
-    <option value="Friday">Friday     :    4am–9pm</option>
-    <option value="Saturday">Saturday :    4am–9pm</option>
-    <option value="Sunday">Sunday     :    4am–9pm</option>
+Address:    
+1st Stage, Domlur, Bengaluru, Karnataka 560071
+<select style="width: 250px;">
+ 
+<option value="Timings">Timings</option>
+<option value="Monday">Monday  :      4am–9pm</option>
+<option value="Tuesday">Tuesday  :     4am–9pm</option>
+<option value="Wednesday">Wednesday:   4am–9pm</option>
+<option value="Thursday">Thursday  :   4am–9pm</option>
+<option value="Friday">Friday     :    4am–9pm</option>
+<option value="Saturday">Saturday :    4am–9pm</option>
+<option value="Sunday">Sunday     :    4am–9pm</option>
      
   </select>
   </pre>

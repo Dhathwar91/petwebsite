@@ -34,6 +34,7 @@
     <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d248842.34607422413!2d77.5082161585912!3d12.961505516998788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3bae0d966bc52d8b%3A0x61575abe6020ad76!2sPetboro+Pet+Resort+and+Kennels%2C+Valepura+Road%2C+Madhura+Nagar+Stage+3%2C+Varthur%2C+Near+Madhurambike+Temple%2C+Whitefield%2C+Sorahunase%2C+Bengaluru%2C+Karnataka+560087!3m2!1d12.9482774!2d77.76669!5e0!3m2!1sen!2sin!4v1554821198851!5m2!1sen!2sin" width="900" height="438" frameborder="0" style="border:0" allowfullscreen></iframe>
     <div class="Slider">
     </div>
+    <h3>Details</h3>
     <pre>
 Address: Valepura Road, Madhura Nagar Stage 3, Varthur,
 Near Madhurambike Temple, 

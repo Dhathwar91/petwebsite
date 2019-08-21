@@ -85,7 +85,7 @@ display: block;
     width: 701px;
     height: 438px;
     background: url(1.jpeg);
-    margin: 40px auto;
+    margin: 80px auto;
     animation: slide 250s infinite;
 }
 @keyframes slide{
@@ -179,10 +179,11 @@ display: block;
         
     }
 }
-.d{
-    float: right;
-    width: 300px;
-  border: 10px solid black;
-  padding: 30px;
-  margin: 10px;
-};
+
+
+.container1 {
+font-size: 20px;
+float: right;
+margin-right: 80px;
+
+}
